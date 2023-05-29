@@ -1,0 +1,50 @@
+      #canvas{
+        background-color: black;
+        width: 600px;
+        height: 600px;
+        position: relative;
+        left: calc(50% - 300px);
+        top: calc(50% - 300px);
+      }
+      body{
+        background-color: black;
+      }
+      
+      #pause, #play {
+        width: 70px;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      #play{
+        top: 5px;
+      }
+      #cherry-count{
+        position: absolute;
+        width: 100px;
+        left: calc(50% + 210px);
+        top: 5px;
+        font-size: 25px;
+        font-family: 'Courier';
+        color: white;
+      }
+      #current-count, #max-count, #count{
+        display: inline-block;
+      }
+      #count{
+        width: 61px;
+      }
+      #max-count{
+        position: relative;
+        left: -16px;
+      }
+      #cherry-count-img{
+       width: 40px;
+    height: 40px;
+    position: relative;
+    top: -62px;
+    left: 47px;
+      }
+      #sourceCherry{
+        display: none;
+      }
